@@ -1,0 +1,9 @@
+.c-site-title {
+  font-family: var(--font-stack-sans-serif);
+  font-size: var(--wp--preset--font-size--large);
+  font-weight: 700;
+  margin: 0 0 var(--wp--custom--spacing--sm) 0;
+  a {
+    text-decoration: none;
+  }
+}

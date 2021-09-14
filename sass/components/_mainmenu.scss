@@ -1,0 +1,32 @@
+.c-mainmenu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  .menu-item {
+    display: inline-block;
+    margin-right: var(--wp--custom--spacing--sm);
+    line-height: 1.1;
+    @include media(">medium") {
+      margin-right: var(--wp--custom--spacing--baseline);
+    }
+  }
+
+  .menu-item a {
+    font-size: var(--wp--preset--font-size--small);
+    font-family: var(--font-stack-sans-serif);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    @include media(">large") {
+      font-size: var(--wp--preset--font-size--small);
+    }
+  }
+
+  .menu-item.current_page_item a {
+    text-decoration: underline;
+  }
+}

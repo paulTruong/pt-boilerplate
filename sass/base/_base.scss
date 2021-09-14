@@ -1,0 +1,23 @@
+// Core Wordpress Class overrides
+.entry-header,
+.entry-content > *:not(.alignwide):not(.alignfull) {
+  max-width: 35rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 var(--wp--custom--spacing--baseline);
+}
+
+.entry-content > *.alignwide {
+  max-width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 var(--wp--custom--spacing--baseline);
+}
+
+.alignleft img {
+	float: left;
+}
+
+.alignright img {
+ 	float: right;
+}

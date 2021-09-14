@@ -1,0 +1,7 @@
+.l-header {
+    padding: var(--wp--custom--spacing--baseline) var(--wp--custom--spacing--baseline) 0;
+    @include media(">medium") {
+        display: flex;
+        justify-content: space-between;
+    }
+}
